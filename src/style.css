@@ -499,7 +499,6 @@ body {
 }
 
 .hero-content {
-  background-color: hsla(15, 55%, 35%, 0.9);
   padding: 30px;
   border-radius: 30px;
 }
@@ -1239,7 +1238,7 @@ body {
 
   /*** HERO ***/
   .hero-text {
-    max-width: 60ch;
+    max-width: 100ch;
     margin-inline: auto;
   }
 
