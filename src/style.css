@@ -325,7 +325,7 @@ body {
   top: calc(100% - 1px);
   left: 0;
   width: 100%;
-  background-color: var(--raisin-black-2);
+  background-color: var(--rich-black-fogra-29_95);
   padding-block: 20px;
   z-index: 4;
 }
