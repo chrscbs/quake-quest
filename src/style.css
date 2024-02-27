@@ -515,7 +515,7 @@ body {
 
 .hero-subtitle {
   color: var(--bright-green);
-  font-size: var(--fs-6);
+  font-size: var(--fs-7);
   font-weight: var(--fw-700);
   text-transform: uppercase;
 }
