@@ -247,14 +247,18 @@ body {
 }
 
 .section-subtitle {
-  color: var(--silver);
+  color: var(--bright-green);
   font-size: var(--fs-9);
   font-weight: var(--fw-700);
   margin-block-end: 10px;
 }
 
 .section-title::after {
-  content: url(".assets/images/title-underline.png");
+  content: "";
+  margin-top: 10px;
+  width: 200px;
+  height: 10px;
+  background-color: var(--bright-green);
   position: absolute;
   top: 100%;
   left: 50%;
@@ -1386,7 +1390,7 @@ body {
   .header-bottom { outline: 1px solid hsla(0, 0%, 0%, 0.2); }
 
   .header-bottom::before {
-    display: block;
+    /* display: block; */
     top: 0;
     left: -15px;
     right: auto;
