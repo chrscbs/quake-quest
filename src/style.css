@@ -855,9 +855,9 @@ body {
   #BLOG
 \*-----------------------------------*/
 
-.blog { background-color: var(--white); }
+.blog { background-color: var(--raisin-black-2); }
 
-.blog .section-title { color: var(--xiketic); }
+.blog .section-title { color: var(--white); }
 
 .blog .section-text {
   color: var(--dim-gray);
