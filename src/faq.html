@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quake Quest - UPRI</title>
+
+  <!--- favicon -->
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+
+  <!--- custom css link -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!--- google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+
+  <!--- preload images-->
+</head>
+
+<body id="top">
+
+  <!--- #HEADER -->
+  <header class="header">
+    <div class="header-bottom skewBg" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./assets/images/qq-logo-4.png" width="100" height="50" alt="hero banner">
+        </a>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link skewBg" data-nav-link>Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index.html#about" class="navbar-link skewBg" data-nav-link>About</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index.html#timeline" class="navbar-link skewBg" data-nav-link>Timeline</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index.html#leaderboard" class="navbar-link skewBg" data-nav-link>Participants</a>
+            </li>
+            <li class="navbar-item">
+              <a href="index.html#partners" class="navbar-link skewBg" data-nav-link>Partners</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="navbar-link skewBg" data-nav-link>FAQ</a>
+            </li>
+            <li class="navbar-item">
+              <a href="register.html" class="navbar-link skewBg" data-nav-link>Register</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <!-- <button class="search-btn" aria-label="open search" data-search-toggler>
+            <ion-icon name="search-outline"></ion-icon>
+          </button> -->
+          <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+            <ion-icon name="menu-outline" class="menu"></ion-icon>
+            <ion-icon name="close-outline" class="close"></ion-icon>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <!--- #SEARCH BOX -->
+  <div class="search-container" data-search-box>
+    <div class="input-wrapper">
+      <input type="search" name="search" aria-label="search" placeholder="Search here..." class="search-field">
+      <button class="search-submit" aria-label="submit search" data-search-toggler>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+      <button class="search-close" aria-label="close search" data-search-toggler></button>
+    </div>
+  </div>
+
+
+  <main>
+    <article>
+        <section class="section featured-game" id="features" aria-label="featured game">
+            <div class="container">
+              <h2 class="h2 section-title">
+                Frequently Asked <span class="span">Questions</span>
+              </h2>
+              
+              <ul class="accordion">
+                <li class="accordion-item">
+                  <input id="s1" class="hide" type="checkbox">
+                  <h2 class="h2 hero-title"><label for="s1"class="accordion-label">First</label></h2>
+                  <p class="accordion-child">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac.</p>
+                </li>
+                <li class="accordion-item">
+                    <input id="s2" class="hide" type="checkbox">
+                    <h2 class="h2 hero-title"><label for="s2"class="accordion-label">Second</label></h2>
+                    <p class="accordion-child">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ultrices nunc. Suspendisse a magna purus. In hac habitasse platea dictumst. Nullam sed nisl quis sem dignissim luctus. Etiam luctus mauris nulla, et efficitur massa efficitur ac.</p>
+                  </li>
+              </ul>
+              
+            </div>
+          </section>
+
+      <!--- #NEWSLETTER -->
+      <section class="newsletter" aria-label="newsletter">
+        <div class="container">
+          <div class="newsletter-card">
+            <h2 class="h2">
+              Thank you for your interest, we'll keep you <span class="span">up-to-date</span>
+            </h2>
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!--- #FOOTER -->
+  <footer class="footer" >
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-brand">
+          <img src="./assets/images/footer-up-upri-logo.png" width="150" loading="lazy">
+          <a href="#" class="logo">UPRI - Quake Quest</a>
+          <p class="footer-text">
+            Unleashing Innovations in Seismology through Arts, Engineering, and Research
+          </p>
+
+          <ul class="contact-list">
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="location"></ion-icon>
+              </div>
+              <address class="item-text">
+                Address : UPRI, Magsaysay Ave. cor. Apacible St., UP Diliman, Quezon City, Philippines
+              </address>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="mail-open"></ion-icon>
+              </div>
+              Email: <a href="mailto:info@example.com" class="copyright-link">earthquake@science.upd.edu.ph</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="footer-wrapper">
+          <div class="social-wrapper">
+            <p class="footer-list-title">Follow Us</p>
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link" style="background-color: #3b5998">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2024 <a href="#" class="copyright-link">University of the Philippines Resilience Institute</a>
+        </p>
+        <!-- <img src="./assets/images/footer-bottom-img.png" width="340" height="21" loading="lazy" alt=""
+          class="footer-bottom-img"> -->
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <!--- #BACK TO TOP -->
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up"></ion-icon>
+  </a>
+
+
+
+  <!--- custom js link -->
+  <script src="./script.js" defer></script>
+
+  <!--- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
