@@ -342,7 +342,7 @@ body {
 
 .header-bottom.active {
   position: fixed;
-  top: -85px;
+  top: -95px;
   animation: slideIn 0.5s var(--cubic-out) forwards;
 }
 
