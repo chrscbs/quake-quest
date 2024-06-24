@@ -1022,6 +1022,11 @@ body {
   gap: 50px;
 }
 
+.footer .footer-logo-image {
+  max-width:80px;
+  height: auto;
+}
+
 .footer .logo { margin-block-end: 35px; }
 
 .footer-text,
