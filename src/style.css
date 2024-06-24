@@ -364,6 +364,11 @@ body {
   font-weight: var(--fw-800);
 }
 
+.logo .span {
+  display: inline;
+  color: var(--bright-green);
+}
+
 .header-actions {
   display: flex;
   align-items: center;
