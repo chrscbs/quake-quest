@@ -342,7 +342,7 @@ body {
 
 .header-bottom.active {
   position: fixed;
-  top: -85px;
+  top: -95px;
   animation: slideIn 0.5s var(--cubic-out) forwards;
 }
 
@@ -362,6 +362,11 @@ body {
   font-family: var(--ff-oxanium);
   font-size: 3rem;
   font-weight: var(--fw-800);
+}
+
+.logo .span {
+  display: inline;
+  color: var(--bright-green);
 }
 
 .header-actions {
@@ -1020,6 +1025,11 @@ body {
 .footer-top .container {
   display: grid;
   gap: 50px;
+}
+
+.footer .footer-logo-image {
+  max-width:80px;
+  height: auto;
 }
 
 .footer .logo { margin-block-end: 35px; }
