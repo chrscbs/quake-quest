@@ -44,6 +44,7 @@
 
   --bright-green: hsl(133, 90%, 35%);
   --brown: hsl(15, 55%, 35%);
+  --maroon: hsl(343, 75%, 31%);
 
   /*** typography ***/
   --ff-oxanium: 'Oxanium', cursive;
@@ -310,6 +311,34 @@ body {
   margin-inline: auto;
   text-align: center;
   line-height: 1.8;
+}
+
+.clickable-link {
+  display: inline-block;
+  color: var(--maroon);
+  text-decoration: underline;
+  /* font-size: var(--fs-9);
+  max-width: max-content;
+  transition: var(--transition);
+  padding-block: 8px;
+  font-weight: var(--fw-500); */
+}
+
+.clickable-link:is(:hover, :focus) {
+  color: var(--bright-green);
+  transform: translateX(5px);
+}
+
+.ordered-list-number li {
+  list-style-type: decimal;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.ordered-list-letter li {
+  list-style-type: lower-alpha;
+  margin-left: 40px;
+  margin-bottom: 10px;
 }
 
 
@@ -1599,7 +1628,7 @@ body {
 
 
   /*** FOOTER ***/
-  .footer .container { grid-template-columns: 1fr 0.5fr; }
+  .footer .container { grid-template-columns: 2fr 1fr 1fr; }
 
 }
 
