@@ -983,6 +983,14 @@ body {
   border-radius: 80px;
 }
 
+.newsletter-card-reg {
+  background-color: var(--raisin-black-3);
+  /* padding: 40px 15px; */
+  padding-top: 40px;
+  margin-block-start: -55px;
+  border-radius: 80px;
+}
+
 .newsletter .h2 {
   font-size: var(--fs-4);
   text-transform: uppercase;
@@ -1054,11 +1062,19 @@ body {
 .footer-top .container {
   display: grid;
   gap: 50px;
+  padding-top: 20px;
 }
 
 .footer .footer-logo-image {
   max-width:80px;
-  height: auto;
+  max-height:80px;
+  /* height: auto; */
+}
+
+.footer .footer-logo-image2 {
+  max-width:110px;
+  max-height:80px;
+  /* height: auto; */
 }
 
 .footer .logo { margin-block-end: 35px; }
@@ -1135,7 +1151,7 @@ body {
 
 .footer-newsletter .email-field {
   background-color: var(--raisin-black-4);
-  padding: 12px 20px;
+  padding: 12px 10px;
   padding-inline-end: 60px;
   font-size: var(--fs-9);
   color: var(--white);
@@ -1615,6 +1631,13 @@ body {
 
   /*** NEWSLETTER ***/
   .newsletter-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 70px;
+  }
+
+  .newsletter-card-reg {
     display: flex;
     justify-content: space-between;
     align-items: center;
