@@ -27,6 +27,7 @@
   --eerie-black-2: hsl(280, 7%, 8%);
   --roman-silver: hsl(220, 6%, 59%);
   --quick-silver: hsl(0, 1%, 65%);
+  --quick-yellow: hsl(50, 100%, 50%);
   --light-gray-1: hsl(0, 0%, 80%);
   --light-gray-2: hsl(0, 2%, 82%);
   --marigold_75: hsla(42, 99%, 46%, 0.75);
@@ -983,6 +984,14 @@ body {
   border-radius: 80px;
 }
 
+.newsletter-card-reg {
+  background-color: var(--raisin-black-3);
+  /* padding: 40px 15px; */
+  padding-top: 40px;
+  margin-block-start: -55px;
+  border-radius: 80px;
+}
+
 .newsletter .h2 {
   font-size: var(--fs-4);
   text-transform: uppercase;
@@ -1054,11 +1063,19 @@ body {
 .footer-top .container {
   display: grid;
   gap: 50px;
+  padding-top: 20px;
 }
 
 .footer .footer-logo-image {
   max-width:80px;
-  height: auto;
+  max-height:80px;
+  /* height: auto; */
+}
+
+.footer .footer-logo-image2 {
+  max-width:110px;
+  max-height:80px;
+  /* height: auto; */
 }
 
 .footer .logo { margin-block-end: 35px; }
@@ -1135,7 +1152,7 @@ body {
 
 .footer-newsletter .email-field {
   background-color: var(--raisin-black-4);
-  padding: 12px 20px;
+  padding: 12px 10px;
   padding-inline-end: 60px;
   font-size: var(--fs-9);
   color: var(--white);
@@ -1395,7 +1412,7 @@ body {
   }
 
   .countdown-text {
-    color: var(--quick-silver);
+    color: var(--quick-yellow);
     font-size: var(--fs-10);
     font-weight: var(--fw-600);
   }
@@ -1419,7 +1436,7 @@ body {
   .header .social-list { gap: 10px; }
 
   .social-title {
-    color: var(--white);
+    color: var(--quick-silver);
     font-family: var(--ff-oxanium);
     font-size: var(--fs-8);
     font-weight: var(--fw-700);
@@ -1615,6 +1632,13 @@ body {
 
   /*** NEWSLETTER ***/
   .newsletter-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 70px;
+  }
+
+  .newsletter-card-reg {
     display: flex;
     justify-content: space-between;
     align-items: center;
